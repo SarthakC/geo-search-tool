@@ -1,4 +1,4 @@
-/**
+/**you
  * Copyright 2014 Google Inc. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,7 +29,7 @@ var validationErrors = false;
 //finalResults stores the search results from the API search
 var finalResults = [];
 
-//finalResults2 stores the final results 
+//finalResults2 stores the final results
 var finalResults2 = [];
 
 //inputObject contains all the inputs from the User
@@ -364,7 +364,7 @@ function completeInputObject() {
     validationErrors = true;
   }
 
-  
+
 
   //if errors exist, display them on interface and terminate execution there
   if (validationErrors) {
