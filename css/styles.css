@@ -36,3 +36,8 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
     -webkit-box-shadow: 0 1px 0 0 #1276BA;
     box-shadow: 0 1px 0 0 #1276BA ;
 }
+.login-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
