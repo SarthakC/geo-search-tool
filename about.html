@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Copyright 2014 Google Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,12 +20,29 @@ Author:  Stephen Nicholls, March 10, 2014
 <html>
   <head>
     <title>About the Geo Search Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 
   <body>
-    <div id="aboutDisplay">
-      <a href="search.html" style="float: right">back to search</a>
+    <nav class="white lighten-2">
+      <div class="container">
+      <div class="nav-wrapper">
+
+      <a href="#">
+        <img href="#" class="brand-logo" src="images/logo.png" width="50" style="margin-top: 7px;">
+        <!-- Logo -->
+        </img>
+      </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="search.html" style="float: right">Back to Search</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+    </nav>
+    <div id="aboutDisplay", class="container">
       <h2>About the Geo Search Tool</h2>
       <p>
         This reference implementation was developed as a simple model of how News organizations could use Google APIs
@@ -80,7 +97,7 @@ Author:  Stephen Nicholls, March 10, 2014
         <li><span class="aboutPageHeader">Search</span> - Search is conducted via YouTube APIs.   Search results are stack
 			ranked by publish date (latest first).  When a location is entered in the location field, we conduct a geo search which only applies
 			to videos that have geo-tagging turned on.  Likewise, we apply a couple filters to help remove non-News results (e.g. auto reviews).
-        </li>		  
+        </li>
         <li><span class="aboutPageHeader">Keywords</span> - The keyword filter can be helpful when you receive too
           many diverse results. By adding keywords to a geo location search you can narrow the results to just that
           topic. Consequently using words "fire, explosion, drone, tornado" can help focus results on what you are
